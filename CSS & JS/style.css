@@ -1,0 +1,59 @@
+/* Body */
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap");
+body {
+  background: linear-gradient(
+    165deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  padding: 1em;
+  text-align: center;
+  font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+/* Header */
+header {
+  text-align: center;
+  color: rgb(190, 71, 42);
+}
+/* Main */
+main {
+  background: linear-gradient(
+    342deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  border: 1px solid;
+}
+.divcell {
+  display: inline-block;
+  margin: 0.5em;
+  width: 12%;
+  border: 1.5px solid pink;
+  border-radius: 20px;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  color: yellow;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+.colorcell {
+  color: red;
+}
+button {
+  padding: 2em;
+  border-radius: 20px;
+
+  background: transparent;
+  color: rgb(120, 190, 252);
+  font-weight: 600;
+  border: none;
+}
+label {
+  color: rgb(120, 190, 252);
+}
+/* Footer */
